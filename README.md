@@ -14,7 +14,7 @@ authentication system and a usage-analytics dashboard.
 | 2 | **Text Summarizer** | Extractive summarization — TF-IDF sentence scoring (scikit-learn) ranks sentences by information density and returns the top‑N in original order. |
 | 3 | **Sentiment Analysis** | TF-IDF + Logistic Regression classifier (scikit-learn), trained on an included labeled dataset of ~900 review-style sentences (positive / negative / neutral). Supports single-text and batch CSV analysis. |
 
-## ✨ Platform Features (beyond the modules)
+## ✨ Platform Features :
 
 - **Authentication system** — username/password accounts stored in SQLite with salted SHA-256 password hashing (no plaintext passwords).
 - **Dashboard** — total interactions, active users, per-module usage bar chart, activity-over-time line chart, and a recent-activity log.
@@ -22,7 +22,7 @@ authentication system and a usage-analytics dashboard.
 - **Responsive UI** — custom CSS tightens layout and padding on narrow/mobile viewports; Streamlit's native layout is responsive by default.
 - **Batch processing** — sentiment analysis supports CSV upload for bulk scoring, with a downloadable results file.
 
-## 📁 Project Structure
+## 📁 Project Structure :
 
 ```
 ai-multitool-platform/
@@ -45,7 +45,7 @@ ai-multitool-platform/
 └── README.md
 ```
 
-##  Run Locally
+##  Run Locally :
 
 ```bash
 # 1. Clone the repo
@@ -64,7 +64,7 @@ streamlit run app.py
 ```
 
 
-### Demo login
+### Demo login :
 A demo account is auto-created on first run:
 ```
 username: demo
@@ -74,7 +74,7 @@ Or use "Create Account" to register your own.
 
 
 
-## 📊 Dataset
+## 📊 Dataset :
 
 `data/sentiment_dataset.csv` — ~900 labeled sentences generated from a
 combination of 30 subject templates × 45 sentiment-bearing phrase
@@ -83,14 +83,14 @@ clean, reproducible scikit-learn training pipeline. Regenerate anytime
 with `python data/generate_dataset.py`, or swap in your own labeled
 CSV (columns: `text`, `label`) and rerun `train_sentiment_model.py`.
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Used :
 
 - **Streamlit** — UI framework and app hosting
 - **scikit-learn** — TF-IDF vectorization, Logistic Regression, model pipeline
 - **pandas / numpy** — data handling
 - **SQLite** — authentication + usage-analytics storage
 
-##  Possible Extensions (not implemented)
+##  Possible Extensions (not implemented) :
 - Image Classification module (TensorFlow/PyTorch + OpenCV)
 - Resume Analyzer module (NLP entity extraction + scoring)
 - AI Content Generator module (Hugging Face text-generation models)

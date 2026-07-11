@@ -45,7 +45,7 @@ if "username" not in st.session_state:
 
 
 def login_view():
-    st.markdown('<p class="app-title">🧠 AI Multi-Tool Platform</p>', unsafe_allow_html=True)
+    st.markdown('<p class="app-title"> AI Multi-Tool Platform</p>', unsafe_allow_html=True)
     st.markdown('<p class="app-subtitle">Chat Assistant · Text Summarizer · Sentiment Analysis</p>', unsafe_allow_html=True)
     st.write("")
 

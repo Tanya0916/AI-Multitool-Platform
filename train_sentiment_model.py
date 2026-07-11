@@ -1,11 +1,4 @@
-"""
-Trains a TF-IDF + Logistic Regression sentiment classifier on
-data/sentiment_dataset.csv and saves the fitted vectorizer + model
-to the models/ directory for the Streamlit app to load at runtime.
 
-Run:
-    python train_sentiment_model.py
-"""
 import pandas as pd
 import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer

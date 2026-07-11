@@ -4,9 +4,9 @@ An advanced multi-module AI application built with **Streamlit** and
 **scikit-learn**, combining three AI capabilities behind a real
 authentication system and a usage-analytics dashboard.
 
-> Built for Task 04: AI Multi-Tool Platform (3 of 6 modules implemented)
 
-## ✅ Modules Implemented (3 of 6 required)
+
+##  Modules Implemented :
 
 | # | Module | Technique |
 |---|--------|-----------|
@@ -49,14 +49,13 @@ ai-multitool-platform/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your-username>/ai-multitool-platform.git
+git clone https://github.com/Tanya0916/AI-Multitool-Platform.git
 cd ai-multitool-platform
 
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. (Optional) Regenerate the dataset and retrain the model —
-#    a pre-trained model is already included, so this step is optional
+# 3. Optional as pre-trained model is already included
 python data/generate_dataset.py
 python train_sentiment_model.py
 
@@ -64,7 +63,6 @@ python train_sentiment_model.py
 streamlit run app.py
 ```
 
-Then open the local URL Streamlit prints (usually `http://localhost:8501`).
 
 ### Demo login
 A demo account is auto-created on first run:
@@ -74,13 +72,7 @@ password: demo123
 ```
 Or use "Create Account" to register your own.
 
-## ☁️ Deploying to Streamlit Community Cloud (for your live link)
 
-1. Push this folder to a **public GitHub repository**.
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
-3. Click **"New app"**, select your repo/branch, and set the main file to `app.py`.
-4. Click **Deploy**. Streamlit Cloud installs `requirements.txt` automatically.
-5. Once live, copy the generated `https://<app-name>.streamlit.app` URL — that's your **Live Streamlit Link** deliverable.
 
 ## 📊 Dataset
 
@@ -98,12 +90,12 @@ CSV (columns: `text`, `label`) and rerun `train_sentiment_model.py`.
 - **pandas / numpy** — data handling
 - **SQLite** — authentication + usage-analytics storage
 
-## 🔭 Possible Extensions (not implemented, out of scope for this submission)
+##  Possible Extensions (not implemented)
 - Image Classification module (TensorFlow/PyTorch + OpenCV)
 - Resume Analyzer module (NLP entity extraction + scoring)
 - AI Content Generator module (Hugging Face text-generation models)
 - OAuth-based authentication in place of local username/password
 - PostgreSQL instead of SQLite for multi-instance deployments
 
-## 📄 License
+
 For educational/demo purposes.

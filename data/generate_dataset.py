@@ -1,10 +1,4 @@
-"""
-Generates data/sentiment_dataset.csv
-A synthetic-but-varied dataset of short text samples labeled
-positive / negative / neutral, for demo training of the sentiment model.
-Combines subject/aspect templates with sentiment-bearing phrase banks
-to create ~600 diverse rows.
-"""
+
 import csv
 import random
 

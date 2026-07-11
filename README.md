@@ -1,4 +1,4 @@
-# 🧠 AI Multi-Tool Platform
+#  AI Multi-Tool Platform
 
 An advanced multi-module AI application built with **Streamlit** and
 **scikit-learn**, combining three AI capabilities behind a real
@@ -45,7 +45,7 @@ ai-multitool-platform/
 └── README.md
 ```
 
-## 🚀 Run Locally
+##  Run Locally
 
 ```bash
 # 1. Clone the repo

@@ -14,7 +14,7 @@ from modules import chat_assistant, summarizer, sentiment
 
 st.set_page_config(
     page_title="AI Multi-Tool Platform",
-    page_icon="🧠",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded",
 )
